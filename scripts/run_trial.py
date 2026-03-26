@@ -22,11 +22,12 @@ def main():
     parser.add_argument("--steps",type=int,default=300)
     parser.add_argument("--output",type=Path,required=True)
     parser.add_argument("--interruption",action="store_true")
+    parser.add_argument("--execution-horizon",type=int,choices=[1,10,50],default=10)
     args=parser.parse_args()
     args.output.mkdir(parents=True,exist_ok=False)
     config={**vars(args),"output":str(args.output),"plan":str(args.plan) if args.plan else None,
             "interruption_steps":[30,40] if args.interruption else None,
-            "execution_horizon":10,"model_seed":1000,"environment_seed":0}
+            "execution_horizon":args.execution_horizon,"model_seed":1000,"environment_seed":0}
     (args.output/"scenario.json").write_text(json.dumps(config,indent=2)+"\n")
     sim=None
     result={"status":"INFRASTRUCTURE_ERROR","success":False,"mode":args.mode,"suite":args.suite,
@@ -54,7 +55,8 @@ def main():
                     lerobot_revision=subprocess.check_output(["git","-C",str(ROOT/".deps/lerobot"),"rev-parse","HEAD"],text=True).strip(),
                     initial_simulator_state_hash=initial_hash,initial_state=sim.state(),
                     initial_image_sha256=hashlib.sha256(obs["image"].tobytes()).hexdigest(),
-                    simulation_paused_during_inference=True,control_hz=20)
+                    simulation_paused_during_inference=True,control_hz=20,
+                    execution_horizon=args.execution_horizon)
         (args.output/"manifest.json").write_text(json.dumps(meta,indent=2)+"\n")
         imageio.imwrite(args.output/"initial.png",obs["image"])
         np.savez_compressed(args.output/"first-observation.npz",**obs)
@@ -65,6 +67,7 @@ def main():
             if len(plan)<args.steps:raise ValueError("Nominal plan shorter than common task budget")
             result["plan_sha256"]=hashlib.sha256(args.plan.read_bytes()).hexdigest()
         (args.output/"observations").mkdir()
+        result["execution_horizon"]=args.execution_horizon
         queue=[]
         last_gripper=-1.0
         with imageio.get_writer(args.output/"episode.mp4",fps=20) as video, \
@@ -88,7 +91,7 @@ def main():
                             "image2_sha256":hashlib.sha256(obs["image2"].tobytes()).hexdigest(),
                             "image_sha256":hashlib.sha256(obs["image"].tobytes()).hexdigest()})+"\n")
                         predictions.flush()
-                        queue=list(response["actions"][:10])
+                        queue=list(response["actions"][:args.execution_horizon])
                         print(args.mode,args.suite,args.task,args.initial,"step",step,
                               "inference",round(response["inference_seconds"],3),flush=True)
                     raw=np.asarray(queue.pop(0),dtype=float)

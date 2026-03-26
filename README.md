@@ -131,7 +131,7 @@ The supplied walkthrough and animation have already been fully decoded and visua
 
 ## Evidence and verification
 
-**18 tests pass.** They audit actual recorded inference/execution, not mocked model success:
+**19 tests pass**, including the original Milestone 1 audits and the new horizon-provenance check. They audit actual recorded inference/execution, not mocked model success:
 
 - Camera/state dimensions and semantic conversions.
 - All predicted actions, checkpoint denormalization and execution provenance.
@@ -147,10 +147,37 @@ The final study is `artifacts/study-v2`. An earlier development batch is retaine
 
 All **370 primary-study model inputs** were reexecuted after aligning dependency bounds, reproducing their predictions exactly. Collection/runtime versions remain separately recorded. [Reproducibility and diagnostics](docs/reproducibility.md).
 
-[Test output](artifacts/tests.log) · [Runtime revalidation](artifacts/runtime-revalidation.json) · [Verification summary](artifacts/verification-summary.json)
+[Current test output](artifacts/milestone2/tests.log) · [Runtime revalidation](artifacts/runtime-revalidation.json) · [Verification summary](artifacts/verification-summary.json)
+
+## Milestone 2 — one-scene chunk execution check
+
+**[Watch the three-mode comparison](artifacts/milestone2/comparison.mp4)** · [Measured report](artifacts/milestone2/report.md)
+
+The same bowl-placement scene was executed once with **1, 10 or 50 actions used
+per inference**, with a 150-action budget. All three succeeded:
+
+| Actions used per inference | Executed actions | Model calls | Total inference time |
+| --- | --- | --- | --- |
+| 1 | 78 | 78 | 24.03 s |
+| 10 | 79 | 8 | 2.96 s |
+| 50 | 78 | 2 | 0.58 s |
+
+Buffering more predictions amortized model-inference cost in this scene; it reduced the number of calls, not the latency of a single call. Every call
+still predicts 50 actions: the one-action mode discards the rest and replans; it is
+**not a natively sequential model**. No artificial delay was added. Physics pauses
+during inference, so this does not demonstrate real-time deadline handling or action
+starvation. Run order was 10, 1, 50; cold-start overhead remains in the measurements.
+
+This is three smoke-test episodes, separate from Milestone 1's 36-record study.
+A broader horizon/reliability study remains future work.
+
+~~~bash
+# Start scripts/policy_server.py in another terminal, then:
+.venv-policy/bin/python scripts/run_chunk_smoke.py --output artifacts/my-chunk-smoke
+~~~
 
 ## Scope
 
-Milestone 1 ends at this multi-task feedback study. Recovery-policy comparisons, execution-horizon ablations and asynchronous inference are future work. There is no claim of physical-hardware validation, a new controller, a general evaluation platform or a new VLA.
+Milestone 1 contains the multi-task feedback study. Milestone 2 currently adds only the one-scene execution-horizon smoke check above. Recovery-policy comparisons, broader horizon evaluation and asynchronous inference remain future work. There is no claim of physical-hardware validation, a new controller, a general evaluation platform or a new VLA.
 
 [Protocol and interfaces](docs/protocol.md) · [Reproducibility](docs/reproducibility.md) · [Attribution](THIRD_PARTY_NOTICES.md)

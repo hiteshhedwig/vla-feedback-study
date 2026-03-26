@@ -1,0 +1,53 @@
+{
+  "scene": "LIBERO-Spatial task 0, initial state 0",
+  "task": "bowl placement",
+  "max_actions": 150,
+  "trial_count": 3,
+  "conditions": [
+    {
+      "execution_horizon": 1,
+      "success": true,
+      "status": "SUCCESS",
+      "actions": 78,
+      "model_calls": 78,
+      "total_inference_s": 24.031621561985958,
+      "mean_inference_s": 0.3080977123331533,
+      "amortized_inference_s_per_action": 0.3080977123331533,
+      "wall_seconds": 30.94137837800008,
+      "provenance_verified": true
+    },
+    {
+      "execution_horizon": 10,
+      "success": true,
+      "status": "SUCCESS",
+      "actions": 79,
+      "model_calls": 8,
+      "total_inference_s": 2.959847625999828,
+      "mean_inference_s": 0.3699809532499785,
+      "amortized_inference_s_per_action": 0.037466425645567444,
+      "wall_seconds": 8.017858844999864,
+      "provenance_verified": true
+    },
+    {
+      "execution_horizon": 50,
+      "success": true,
+      "status": "SUCCESS",
+      "actions": 78,
+      "model_calls": 2,
+      "total_inference_s": 0.5806771160023345,
+      "mean_inference_s": 0.29033855800116726,
+      "amortized_inference_s_per_action": 0.00744457841028634,
+      "wall_seconds": 5.533912356997462,
+      "provenance_verified": true
+    }
+  ],
+  "run_order": [
+    10,
+    1,
+    50
+  ],
+  "predicted_chunk_size": 50,
+  "artificial_delay": false,
+  "scope": "One-scene smoke check, not a statistical study or comparison to a natively sequential model.",
+  "timing": "Physics pauses during inference; no real-time deadline or action-starvation claim. Wall times include simulator setup; initial cold inference can affect timing."
+}

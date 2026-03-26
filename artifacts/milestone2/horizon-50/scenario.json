@@ -1,0 +1,14 @@
+{
+  "suite": "libero_spatial",
+  "task": 0,
+  "initial": 0,
+  "mode": "closed",
+  "plan": null,
+  "steps": 150,
+  "output": "/home/hedwig/capstone_proj/vla-execution-study/artifacts/milestone2/horizon-50",
+  "interruption": false,
+  "execution_horizon": 50,
+  "interruption_steps": null,
+  "model_seed": 1000,
+  "environment_seed": 0
+}
