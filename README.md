@@ -6,7 +6,74 @@
 
 One **pretrained SmolVLA**, one simulated Panda arm, and three tasks: study how fresh model feedback compares with executing a nominal VLA-generated plan.
 
-The milestone is deliberately limited to **closed-loop versus open-loop execution**. The checkpoint, ten-action execution horizon and robot controller remain fixed. There is no policy training or custom grasp trajectory.
+Two focused experiments use the same pretrained policy and simulator:
+
+| Experiment | Question | Evidence |
+| --- | --- | --- |
+| [Feedback vs. fixed-plan replay](#what-open-loop-means-here) | Does observing again help after an interruption? | Three tasks, 36 episode records |
+| [Action chunk execution](#action-chunking-how-often-should-the-vla-predict-again) | What changes when we execute 1, 10 or 50 predictions before asking the model again? | One bowl scene, three recorded episodes |
+
+There is no policy training or custom grasp trajectory.
+
+## Action chunking: how often should the VLA predict again?
+
+[![Three recorded bowl-placement executions: one, ten and fifty actions per inference](artifacts/milestone2/preview.gif)](artifacts/milestone2/comparison.mp4)
+
+**[Watch the explained three-way comparison](artifacts/milestone2/comparison.mp4)** · [Measured report](artifacts/milestone2/report.md) · [Raw results](artifacts/milestone2/summary.json)
+
+### What actually changes?
+
+SmolVLA predicts **50 future actions in every inference call**. We vary how many of those actions the robot executes before capturing fresh camera images and robot state:
+
+| Mode | What the robot does | When the VLA sees the robot again |
+| --- | --- | --- |
+| Execute 1 | Use the first prediction; discard the other 49 | After every action |
+| Execute 10 | Execute the first 10 predictions in order; discard the remaining 40 | After every 10 actions |
+| Execute 50 | Execute the entire predicted chunk in order | After every 50 actions |
+
+Each mode repeats **observe → predict → execute** until LIBERO detects task success or the 150-action budget runs out. All use the same bowl-placement task, predefined initial state, checkpoint and existing Panda controller. There is no injected interruption in this experiment.
+
+The one-action mode approximates execution with feedback after each action. **It is not a separately trained sequential-output model:** the policy still computes all 50 predictions. This experiment studies how we *use* a chunk, rather than comparing two model architectures.
+
+### What happened in this scene?
+
+All three executions completed the bowl-placement task, according to LIBERO's task predicate.
+
+| Actions before fresh feedback | Task outcome | Robot actions executed | Model calls | Total inference time | Inference cost per executed action |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Success | 78 | 78 | 24.03 s | 0.308 s |
+| 10 | Success | 79 | 8 | 2.96 s | 0.037 s |
+| 50 | Success | 78 | 2 | 0.58 s | 0.007 s |
+
+**Reusing the chunk avoided repeated model calls while preserving task success in this scene.** Executing 50 predictions per call used 2 calls instead of 78. It reduced total inference work, not the latency of an individual call.
+
+The trade-off is feedback freshness. At the configured 20 Hz command rate, these modes request new observations after up to **0.05 s, 0.5 s or 2.5 s of simulated motion**, respectively. A longer chunk saves inference work but commits to more actions before the next model update. These clean runs do not establish which horizon would respond best to a disturbance.
+
+### How to read the demo
+
+The three panes replay the actual robot executions together at **0.5× speed**. Labels show the execution horizon, final model-call count and measured inference cost. A pane freezes and is labeled after its episode ends.
+
+**The video compares motion, not elapsed wall-clock runtime.** Physics pauses while the synchronous model call runs, so the 24.03 seconds of inference in the one-action mode are not shown as equivalent idle time. The table reports that computation cost separately. No artificial delay was added.
+
+### What this does—and does not—show
+
+This is the deliberately small **Milestone 2** result: one scene, one episode per horizon, separate from the 36-record feedback experiment. All three succeeded; that is not evidence of equal reliability or a universally optimal chunk size.
+
+Run order was 10, 1, 50, and cold-start overhead remains included. These measurements do not demonstrate real-time deadline handling, asynchronous buffering or recovery. Broader task and latency comparisons are left for a later study.
+
+To rerun just this scene into a new output directory:
+
+~~~bash
+# Terminal 1
+.venv-policy/bin/python scripts/policy_server.py
+
+# Terminal 2
+.venv-policy/bin/python scripts/run_chunk_smoke.py --output artifacts/my-chunk-smoke
+~~~
+
+## Feedback experiment: closed loop vs. fixed-plan replay
+
+The following 36-record experiment keeps the ten-action execution horizon fixed and changes whether the policy receives fresh feedback.
 
 ## What “open loop” means here
 
@@ -72,7 +139,7 @@ The public [lerobot/smolvla_libero](https://huggingface.co/lerobot/smolvla_liber
 | Language | The supported LIBERO task instruction |
 | Prediction | 50×7 normalized actions |
 | Executed action | Checkpoint-denormalized relative translation (3), relative axis-angle rotation (3), gripper (1) |
-| Feedback interval | Ten commands; fixed throughout this study |
+| Feedback interval | Ten commands in the feedback experiment; 1/10/50 in the chunk-execution comparison |
 | Control / physics | 20 Hz commands; existing 2 ms simulation/controller integration |
 
 The checkpoint's existing processors rename cameras, tokenize language and normalize state/actions. The policy internally resizes/pads images to 512×512 and maps pixels to its expected range. We do not substitute Euler angles for axis-angle state or interpret action values as joint positions.
@@ -148,33 +215,6 @@ The final study is `artifacts/study-v2`. An earlier development batch is retaine
 All **370 primary-study model inputs** were reexecuted after aligning dependency bounds, reproducing their predictions exactly. Collection/runtime versions remain separately recorded. [Reproducibility and diagnostics](docs/reproducibility.md).
 
 [Current test output](artifacts/milestone2/tests.log) · [Runtime revalidation](artifacts/runtime-revalidation.json) · [Verification summary](artifacts/verification-summary.json)
-
-## Milestone 2 — one-scene chunk execution check
-
-**[Watch the three-mode comparison](artifacts/milestone2/comparison.mp4)** · [Measured report](artifacts/milestone2/report.md)
-
-The same bowl-placement scene was executed once with **1, 10 or 50 actions used
-per inference**, with a 150-action budget. All three succeeded:
-
-| Actions used per inference | Executed actions | Model calls | Total inference time |
-| --- | --- | --- | --- |
-| 1 | 78 | 78 | 24.03 s |
-| 10 | 79 | 8 | 2.96 s |
-| 50 | 78 | 2 | 0.58 s |
-
-Buffering more predictions amortized model-inference cost in this scene; it reduced the number of calls, not the latency of a single call. Every call
-still predicts 50 actions: the one-action mode discards the rest and replans; it is
-**not a natively sequential model**. No artificial delay was added. Physics pauses
-during inference, so this does not demonstrate real-time deadline handling or action
-starvation. Run order was 10, 1, 50; cold-start overhead remains in the measurements.
-
-This is three smoke-test episodes, separate from Milestone 1's 36-record study.
-A broader horizon/reliability study remains future work.
-
-~~~bash
-# Start scripts/policy_server.py in another terminal, then:
-.venv-policy/bin/python scripts/run_chunk_smoke.py --output artifacts/my-chunk-smoke
-~~~
 
 ## Scope
 
