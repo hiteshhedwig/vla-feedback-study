@@ -1,0 +1,41 @@
+{
+  "id": "feedback-study-v2",
+  "tasks": [
+    {
+      "id": "bowl",
+      "suite": "libero_spatial",
+      "task": 0
+    },
+    {
+      "id": "drawer",
+      "suite": "libero_goal",
+      "task": 0
+    },
+    {
+      "id": "stove",
+      "suite": "libero_goal",
+      "task": 7
+    }
+  ],
+  "initial_state_ids": [
+    0,
+    1,
+    2
+  ],
+  "max_actions": 300,
+  "execution_horizon": 10,
+  "environment_seed": 0,
+  "model_seed": 1000,
+  "conditions": [
+    "clean",
+    "interrupted"
+  ],
+  "interruption_steps": [
+    30,
+    40
+  ],
+  "open_loop_definition": "Each initial state has its own full nominal VLA trajectory, replayed without new model observations. Not a single-shot full-task prediction.",
+  "reference_generation": "Continue nominal inference to the fixed action horizon even after first success solely to construct a complete replay plan. Evaluation success is first attainment.",
+  "noise_schedule": "Explicit standard-normal CUDA noise, seed 1000 + control step // 10",
+  "reproducibility": "Deterministic Torch algorithms; Python hash/random/NumPy seeds fixed; both raw camera inputs retained at every query"
+}

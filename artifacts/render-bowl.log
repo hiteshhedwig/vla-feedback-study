@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/hedwig/capstone_proj/vla-execution-study/scripts/render_demo.py", line 121, in <module>
+    if __name__=="__main__":main()
+  File "/home/hedwig/capstone_proj/vla-execution-study/scripts/render_demo.py", line 112, in main
+    render(args.runs,args.output,task)
+  File "/home/hedwig/capstone_proj/vla-execution-study/scripts/render_demo.py", line 98, in render
+    metadata={"file":output.name,"source_trials":[str(left.relative_to(ROOT)),str(right.relative_to(ROOT))],
+  File "/home/hedwig/vla_test/.python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/pathlib.py", line 818, in relative_to
+    raise ValueError("{!r} is not in the subpath of {!r}"
+ValueError: 'artifacts/study-v2/bowl-state0-closed-interrupted' is not in the subpath of '/home/hedwig/capstone_proj/vla-execution-study' OR one path is relative and the other is absolute.

@@ -1,0 +1,14 @@
+{
+  "suite": "libero_spatial",
+  "task": 0,
+  "initial": 2,
+  "mode": "open",
+  "plan": "artifacts/study-v2/bowl-state2-reference/actions.jsonl",
+  "steps": 300,
+  "output": "artifacts/study-v2/bowl-state2-open-clean",
+  "interruption": false,
+  "interruption_steps": null,
+  "execution_horizon": 10,
+  "model_seed": 1000,
+  "environment_seed": 0
+}

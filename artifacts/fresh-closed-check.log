@@ -1,0 +1,17 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/capstone_proj/vla-execution-study/.venv-sim/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+closed libero_spatial 0 1 step 0 inference 0.217
+closed libero_spatial 0 1 step 10 inference 0.206
+closed libero_spatial 0 1 step 20 inference 0.207
+closed libero_spatial 0 1 step 30 inference 0.219
+closed libero_spatial 0 1 step 40 inference 0.208
+closed libero_spatial 0 1 step 50 inference 0.207
+closed libero_spatial 0 1 step 60 inference 0.228
+closed libero_spatial 0 1 step 70 inference 0.225
+closed libero_spatial 0 1 step 80 inference 0.218
+{"status": "SUCCESS", "success": true, "mode": "closed", "suite": "libero_spatial", "task_id": 0, "initial_state_id": 1, "policy_calls": 9, "steps": 84, "first_success_step": 84, "inference_seconds": [0.21738130299854674, 0.20558185399931972, 0.20735567399970023, 0.21916672500083223, 0.20785651999904076, 0.20686298399959924, 0.22766496099939104, 0.22544125400236226, 0.21781778000149643], "request_seconds": [0.2270008660016174, 0.21193853600198054, 0.21394625800166978, 0.22567231799985166, 0.21464684099919396, 0.21384790299998713, 0.23384482999972533, 0.23247538400028134, 0.2243526189995464], "condition": "clean", "clipped_action_elements": 55, "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller", "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate", "first_success_wall_seconds": 6.7920975369997905, "reference_continues_after_first_success": false, "wall_seconds": 6.853512967001734}

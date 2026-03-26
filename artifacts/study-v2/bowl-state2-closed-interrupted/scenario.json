@@ -1,0 +1,17 @@
+{
+  "suite": "libero_spatial",
+  "task": 0,
+  "initial": 2,
+  "mode": "closed",
+  "plan": null,
+  "steps": 300,
+  "output": "artifacts/study-v2/bowl-state2-closed-interrupted",
+  "interruption": true,
+  "interruption_steps": [
+    30,
+    40
+  ],
+  "execution_horizon": 10,
+  "model_seed": 1000,
+  "environment_seed": 0
+}

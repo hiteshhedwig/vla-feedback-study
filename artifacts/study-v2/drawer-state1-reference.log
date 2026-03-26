@@ -1,0 +1,38 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/capstone_proj/vla-execution-study/.venv-sim/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+reference libero_goal 0 1 step 0 inference 0.3
+reference libero_goal 0 1 step 10 inference 0.286
+reference libero_goal 0 1 step 20 inference 0.284
+reference libero_goal 0 1 step 30 inference 0.284
+reference libero_goal 0 1 step 40 inference 0.289
+reference libero_goal 0 1 step 50 inference 0.287
+reference libero_goal 0 1 step 60 inference 0.297
+reference libero_goal 0 1 step 70 inference 0.285
+reference libero_goal 0 1 step 80 inference 0.286
+reference libero_goal 0 1 step 90 inference 0.286
+reference libero_goal 0 1 step 100 inference 0.28
+reference libero_goal 0 1 step 110 inference 0.277
+reference libero_goal 0 1 step 120 inference 0.279
+reference libero_goal 0 1 step 130 inference 0.276
+reference libero_goal 0 1 step 140 inference 0.296
+reference libero_goal 0 1 step 150 inference 0.289
+reference libero_goal 0 1 step 160 inference 0.286
+reference libero_goal 0 1 step 170 inference 0.293
+reference libero_goal 0 1 step 180 inference 0.289
+reference libero_goal 0 1 step 190 inference 0.283
+reference libero_goal 0 1 step 200 inference 0.291
+reference libero_goal 0 1 step 210 inference 0.294
+reference libero_goal 0 1 step 220 inference 0.289
+reference libero_goal 0 1 step 230 inference 0.288
+reference libero_goal 0 1 step 240 inference 0.293
+reference libero_goal 0 1 step 250 inference 0.285
+reference libero_goal 0 1 step 260 inference 0.297
+reference libero_goal 0 1 step 270 inference 0.289
+reference libero_goal 0 1 step 280 inference 0.284
+reference libero_goal 0 1 step 290 inference 0.282
+{"status": "SUCCESS", "success": true, "mode": "reference", "suite": "libero_goal", "task_id": 0, "initial_state_id": 1, "policy_calls": 30, "steps": 300, "first_success_step": 131, "inference_seconds": [0.2998184849966492, 0.285759031001362, 0.28390732200205093, 0.2844125960000383, 0.28877188399928855, 0.28670687100020587, 0.29688385099871084, 0.28478524099773495, 0.2864331550008501, 0.28611031499895034, 0.28007574300136184, 0.2765925720013911, 0.2787128380005015, 0.27638334699804545, 0.2964176910027163, 0.2894729789986741, 0.28555627900277614, 0.29298530599771766, 0.2891255030008324, 0.2832963090004341, 0.29057905900117476, 0.2938271769999119, 0.2889293119987997, 0.2881717710006342, 0.2933951010018063, 0.2850347240018891, 0.2965923420015315, 0.28905872799805366, 0.2836293090003892, 0.28238185300142504], "request_seconds": [0.3096590079985617, 0.2922330930014141, 0.29075155399914365, 0.29162378199907835, 0.29556086099910317, 0.2934270589976222, 0.30403333899812424, 0.2944531890025246, 0.2927854569970805, 0.2929994419973809, 0.28553500799898757, 0.28530015500291483, 0.28536855399943306, 0.2858770840030047, 0.30334512000263203, 0.29416860200217343, 0.29264631499972893, 0.3013025109976297, 0.2959794329981378, 0.29460032799761393, 0.2976294609979959, 0.30072483000185457, 0.29774805499982904, 0.29274998199980473, 0.3003502629981085, 0.28988353599925176, 0.30335673300214694, 0.29573352000079467, 0.29088228399996297, 0.28902507499878993], "condition": "clean", "clipped_action_elements": 228, "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller", "instruction": "open the middle drawer of the cabinet", "first_success_wall_seconds": 9.215372131002368, "reference_continues_after_first_success": true, "wall_seconds": 16.740970870003366}

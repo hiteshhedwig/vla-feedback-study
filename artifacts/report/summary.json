@@ -1,0 +1,356 @@
+{
+  "groups": [
+    {
+      "task": "bowl",
+      "condition": "clean",
+      "mode": "closed",
+      "n": 3,
+      "successes": 3,
+      "mean_success_steps": 84.66666666666667,
+      "mean_online_calls": 9,
+      "mean_online_inference_seconds": 2.0053159896706347
+    },
+    {
+      "task": "bowl",
+      "condition": "clean",
+      "mode": "open",
+      "n": 3,
+      "successes": 3,
+      "mean_success_steps": 84.66666666666667,
+      "mean_online_calls": 0,
+      "mean_online_inference_seconds": 0
+    },
+    {
+      "task": "bowl",
+      "condition": "interrupted",
+      "mode": "closed",
+      "n": 3,
+      "successes": 3,
+      "mean_success_steps": 90.66666666666667,
+      "mean_online_calls": 9.333333333333334,
+      "mean_online_inference_seconds": 1.9425624546699207
+    },
+    {
+      "task": "bowl",
+      "condition": "interrupted",
+      "mode": "open",
+      "n": 3,
+      "successes": 0,
+      "mean_success_steps": null,
+      "mean_online_calls": 0,
+      "mean_online_inference_seconds": 0
+    },
+    {
+      "task": "drawer",
+      "condition": "clean",
+      "mode": "closed",
+      "n": 3,
+      "successes": 3,
+      "mean_success_steps": 120,
+      "mean_online_calls": 12.333333333333334,
+      "mean_online_inference_seconds": 2.6685137996658645
+    },
+    {
+      "task": "drawer",
+      "condition": "clean",
+      "mode": "open",
+      "n": 3,
+      "successes": 3,
+      "mean_success_steps": 120,
+      "mean_online_calls": 0,
+      "mean_online_inference_seconds": 0
+    },
+    {
+      "task": "drawer",
+      "condition": "interrupted",
+      "mode": "closed",
+      "n": 3,
+      "successes": 3,
+      "mean_success_steps": 129.33333333333334,
+      "mean_online_calls": 13.333333333333334,
+      "mean_online_inference_seconds": 2.9971829733318978
+    },
+    {
+      "task": "drawer",
+      "condition": "interrupted",
+      "mode": "open",
+      "n": 3,
+      "successes": 1,
+      "mean_success_steps": 122,
+      "mean_online_calls": 0,
+      "mean_online_inference_seconds": 0
+    },
+    {
+      "task": "stove",
+      "condition": "clean",
+      "mode": "closed",
+      "n": 3,
+      "successes": 3,
+      "mean_success_steps": 76,
+      "mean_online_calls": 8.333333333333334,
+      "mean_online_inference_seconds": 1.8753037559969623
+    },
+    {
+      "task": "stove",
+      "condition": "clean",
+      "mode": "open",
+      "n": 3,
+      "successes": 3,
+      "mean_success_steps": 76,
+      "mean_online_calls": 0,
+      "mean_online_inference_seconds": 0
+    },
+    {
+      "task": "stove",
+      "condition": "interrupted",
+      "mode": "closed",
+      "n": 3,
+      "successes": 3,
+      "mean_success_steps": 87.66666666666667,
+      "mean_online_calls": 9.333333333333334,
+      "mean_online_inference_seconds": 2.102381756337612
+    },
+    {
+      "task": "stove",
+      "condition": "interrupted",
+      "mode": "open",
+      "n": 3,
+      "successes": 3,
+      "mean_success_steps": 95,
+      "mean_online_calls": 0,
+      "mean_online_inference_seconds": 0
+    }
+  ],
+  "pairs": [
+    {
+      "task": "bowl",
+      "initial_state_id": 0,
+      "condition": "clean",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 79,
+      "open_first_success_step": 79
+    },
+    {
+      "task": "bowl",
+      "initial_state_id": 0,
+      "condition": "interrupted",
+      "closed_success": true,
+      "open_success": false,
+      "closed_first_success_step": 88,
+      "open_first_success_step": null
+    },
+    {
+      "task": "bowl",
+      "initial_state_id": 1,
+      "condition": "clean",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 84,
+      "open_first_success_step": 84
+    },
+    {
+      "task": "bowl",
+      "initial_state_id": 1,
+      "condition": "interrupted",
+      "closed_success": true,
+      "open_success": false,
+      "closed_first_success_step": 95,
+      "open_first_success_step": null
+    },
+    {
+      "task": "bowl",
+      "initial_state_id": 2,
+      "condition": "clean",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 91,
+      "open_first_success_step": 91
+    },
+    {
+      "task": "bowl",
+      "initial_state_id": 2,
+      "condition": "interrupted",
+      "closed_success": true,
+      "open_success": false,
+      "closed_first_success_step": 89,
+      "open_first_success_step": null
+    },
+    {
+      "task": "drawer",
+      "initial_state_id": 0,
+      "condition": "clean",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 117,
+      "open_first_success_step": 117
+    },
+    {
+      "task": "drawer",
+      "initial_state_id": 0,
+      "condition": "interrupted",
+      "closed_success": true,
+      "open_success": false,
+      "closed_first_success_step": 134,
+      "open_first_success_step": null
+    },
+    {
+      "task": "drawer",
+      "initial_state_id": 1,
+      "condition": "clean",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 123,
+      "open_first_success_step": 123
+    },
+    {
+      "task": "drawer",
+      "initial_state_id": 1,
+      "condition": "interrupted",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 128,
+      "open_first_success_step": 122
+    },
+    {
+      "task": "drawer",
+      "initial_state_id": 2,
+      "condition": "clean",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 120,
+      "open_first_success_step": 120
+    },
+    {
+      "task": "drawer",
+      "initial_state_id": 2,
+      "condition": "interrupted",
+      "closed_success": true,
+      "open_success": false,
+      "closed_first_success_step": 126,
+      "open_first_success_step": null
+    },
+    {
+      "task": "stove",
+      "initial_state_id": 0,
+      "condition": "clean",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 82,
+      "open_first_success_step": 82
+    },
+    {
+      "task": "stove",
+      "initial_state_id": 0,
+      "condition": "interrupted",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 92,
+      "open_first_success_step": 88
+    },
+    {
+      "task": "stove",
+      "initial_state_id": 1,
+      "condition": "clean",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 75,
+      "open_first_success_step": 75
+    },
+    {
+      "task": "stove",
+      "initial_state_id": 1,
+      "condition": "interrupted",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 92,
+      "open_first_success_step": 117
+    },
+    {
+      "task": "stove",
+      "initial_state_id": 2,
+      "condition": "clean",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 71,
+      "open_first_success_step": 71
+    },
+    {
+      "task": "stove",
+      "initial_state_id": 2,
+      "condition": "interrupted",
+      "closed_success": true,
+      "open_success": true,
+      "closed_first_success_step": 79,
+      "open_first_success_step": 80
+    }
+  ],
+  "valid_episodes": 36,
+  "infrastructure_failures": 0,
+  "model_inference_calls_measured": 366,
+  "inference_median_s": 0.213204178999149,
+  "inference_p95_s": 0.24660892300016712,
+  "peak_gpu_allocated_bytes": 1463071744,
+  "reference_planning_costs": [
+    {
+      "trial": "bowl-state0-reference",
+      "full_plan_model_calls": 30,
+      "full_plan_inference_seconds": 6.467574269991019,
+      "full_plan_wall_seconds": 15.66776353199748
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "full_plan_model_calls": 30,
+      "full_plan_inference_seconds": 6.171324587008712,
+      "full_plan_wall_seconds": 14.974222434000694
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "full_plan_model_calls": 30,
+      "full_plan_inference_seconds": 6.306952065009682,
+      "full_plan_wall_seconds": 15.365192706998641
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "full_plan_model_calls": 30,
+      "full_plan_inference_seconds": 6.249479366997548,
+      "full_plan_wall_seconds": 14.233798041001137
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "full_plan_model_calls": 30,
+      "full_plan_inference_seconds": 6.752902389991505,
+      "full_plan_wall_seconds": 13.892331169001409
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "full_plan_model_calls": 30,
+      "full_plan_inference_seconds": 6.429195766992052,
+      "full_plan_wall_seconds": 13.995509192998725
+    },
+    {
+      "trial": "stove-state0-reference",
+      "full_plan_model_calls": 30,
+      "full_plan_inference_seconds": 6.408288843002083,
+      "full_plan_wall_seconds": 14.151899058000708
+    },
+    {
+      "trial": "stove-state1-reference",
+      "full_plan_model_calls": 30,
+      "full_plan_inference_seconds": 6.79160749899529,
+      "full_plan_wall_seconds": 14.896551729001658
+    },
+    {
+      "trial": "stove-state2-reference",
+      "full_plan_model_calls": 30,
+      "full_plan_inference_seconds": 6.890852689986787,
+      "full_plan_wall_seconds": 15.208475382998586
+    }
+  ],
+  "claim_scope": "Three predefined LIBERO tasks and three fixed initial states; one checkpoint, seed, execution horizon and interruption. No universal ranking or reliability estimate.",
+  "open_loop_definition": "Replay of a full nominal trajectory previously generated by closed-loop SmolVLA on this same initial state. Not a single-shot whole-task VLA plan.",
+  "clean_control": "Clean replay is expected to match the nominal reference by construction; it is a reproducibility control, not independent evidence for equal general policy quality.",
+  "timing": "Simulation pauses during synchronous inference. All modes retain the same low-level OSC feedback. Open online inference excludes nominal plan construction; full planning costs are listed separately.",
+  "reference_semantics": "A reference records all 300 model-generated controls, including after first success, to provide a full common-budget replay plan. Evaluation uses first success and corresponding policy calls.",
+  "selection": "Tasks, initial IDs and interruption interval were frozen before the interrupted outcomes; all valid outcomes retained."
+}

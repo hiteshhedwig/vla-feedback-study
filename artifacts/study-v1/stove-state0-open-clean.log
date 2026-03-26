@@ -1,0 +1,8 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/vla_test/.venv-libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+{"status": "SUCCESS", "success": true, "mode": "open", "suite": "libero_goal", "task_id": 7, "initial_state_id": 0, "policy_calls": 0, "steps": 82, "first_success_step": 82, "inference_seconds": [], "request_seconds": [], "condition": "clean", "clipped_action_elements": 0, "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller", "instruction": "turn on the stove", "plan_sha256": "28b6f2dc2527c31e261c476e2630489cd6b6162c220ae5f49ede614e90f2316f", "first_success_wall_seconds": 3.874570087002212, "reference_continues_after_first_success": false, "wall_seconds": 3.9258540500013623}

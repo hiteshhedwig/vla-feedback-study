@@ -1,0 +1,18 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/capstone_proj/vla-execution-study/.venv-sim/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+closed libero_goal 7 1 step 0 inference 0.28
+closed libero_goal 7 1 step 10 inference 0.282
+closed libero_goal 7 1 step 20 inference 0.279
+closed libero_goal 7 1 step 30 inference 0.279
+closed libero_goal 7 1 step 40 inference 0.273
+closed libero_goal 7 1 step 50 inference 0.271
+closed libero_goal 7 1 step 60 inference 0.278
+closed libero_goal 7 1 step 70 inference 0.279
+closed libero_goal 7 1 step 80 inference 0.287
+closed libero_goal 7 1 step 90 inference 0.278
+{"status": "SUCCESS", "success": true, "mode": "closed", "suite": "libero_goal", "task_id": 7, "initial_state_id": 1, "policy_calls": 10, "steps": 91, "first_success_step": 91, "inference_seconds": [0.28014093399906415, 0.2821415739999793, 0.278880690002552, 0.2794967560002988, 0.27344207799978903, 0.27084412000112934, 0.2780683470009535, 0.2790107370019541, 0.2871477799999411, 0.27841705700120656], "request_seconds": [0.290528441000788, 0.28880111500257044, 0.28529634499864187, 0.2866740729987214, 0.28030957900045905, 0.27756236899949727, 0.28435331500077154, 0.2861126579991833, 0.29396562300098594, 0.28521995099799824], "condition": "interrupted", "clipped_action_elements": 55, "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller", "instruction": "turn on the stove", "first_success_wall_seconds": 7.682700247001776, "reference_continues_after_first_success": false, "wall_seconds": 7.733946549000393}

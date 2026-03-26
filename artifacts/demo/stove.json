@@ -1,0 +1,37 @@
+{
+  "file": "stove.mp4",
+  "source_trials": [
+    "artifacts/study-v2/stove-state0-closed-interrupted",
+    "artifacts/study-v2/stove-state0-open-interrupted"
+  ],
+  "source_outcomes": [
+    "SUCCESS",
+    "SUCCESS"
+  ],
+  "initial_state_id": 0,
+  "duration_seconds": 33.2,
+  "reading_holds": [
+    {
+      "source_step": 0,
+      "hold_seconds": 6,
+      "label": "intro"
+    },
+    {
+      "source_step": 31,
+      "hold_seconds": 5,
+      "label": "on"
+    },
+    {
+      "source_step": 41,
+      "hold_seconds": 5,
+      "label": "off"
+    },
+    {
+      "source_step": 91,
+      "hold_seconds": 8,
+      "label": "outcome"
+    }
+  ],
+  "fully_decoded": true,
+  "note": "Recorded simulation videos. 0.5x playback and labeled editorial holds; no new physics/model rollout."
+}

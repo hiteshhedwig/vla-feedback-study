@@ -1,0 +1,4 @@
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 8 files:  12%|█▎        | 1/8 [00:00<00:03,  2.32it/s]Fetching 8 files:  75%|███████▌  | 6/8 [00:01<00:00,  4.13it/s]Fetching 8 files: 100%|██████████| 8/8 [01:17<00:00, 12.87s/it]Fetching 8 files: 100%|██████████| 8/8 [01:17<00:00,  9.71s/it]
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files:   9%|▉         | 1/11 [00:00<00:03,  2.74it/s]Fetching 11 files:  73%|███████▎  | 8/11 [00:00<00:00, 20.21it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 12.68it/s]
+Pinned model and tokenizer assets downloaded

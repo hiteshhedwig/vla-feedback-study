@@ -1,0 +1,17 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/vla_test/.venv-libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+closed libero_spatial 0 0 step 0 inference 0.215
+closed libero_spatial 0 0 step 10 inference 0.213
+closed libero_spatial 0 0 step 20 inference 0.211
+closed libero_spatial 0 0 step 30 inference 0.199
+closed libero_spatial 0 0 step 40 inference 0.2
+closed libero_spatial 0 0 step 50 inference 0.209
+closed libero_spatial 0 0 step 60 inference 0.203
+closed libero_spatial 0 0 step 70 inference 0.197
+closed libero_spatial 0 0 step 80 inference 0.204
+{"status": "SUCCESS", "success": true, "mode": "closed", "suite": "libero_spatial", "task_id": 0, "initial_state_id": 0, "policy_calls": 9, "steps": 88, "first_success_step": 88, "inference_seconds": [0.21505160000015167, 0.21266544199897908, 0.21097796100002597, 0.19918611600223812, 0.20013407499936875, 0.20865205700101797, 0.2033813710004324, 0.19667887299874565, 0.20358853099969565], "request_seconds": [0.2245905859999766, 0.21955493299901718, 0.2178472529994906, 0.20593722599733155, 0.20728724299988244, 0.215412222998566, 0.21326828300152556, 0.20281588500074577, 0.21007256699886057], "condition": "interrupted", "clipped_action_elements": 80, "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller", "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate", "first_success_wall_seconds": 6.625197343000764, "reference_continues_after_first_success": false, "wall_seconds": 6.6863828229979845}

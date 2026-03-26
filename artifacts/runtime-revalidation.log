@@ -1,0 +1,19 @@
+bowl-state0-reference checked 30 actual model inputs
+bowl-state0-closed-interrupted checked 9 actual model inputs
+bowl-state1-reference checked 30 actual model inputs
+bowl-state1-closed-interrupted checked 10 actual model inputs
+bowl-state2-reference checked 30 actual model inputs
+bowl-state2-closed-interrupted checked 10 actual model inputs
+drawer-state0-reference checked 30 actual model inputs
+drawer-state0-closed-interrupted checked 14 actual model inputs
+drawer-state1-reference checked 30 actual model inputs
+drawer-state1-closed-interrupted checked 15 actual model inputs
+drawer-state2-reference checked 30 actual model inputs
+drawer-state2-closed-interrupted checked 13 actual model inputs
+stove-state0-reference checked 30 actual model inputs
+stove-state0-closed-interrupted checked 10 actual model inputs
+stove-state1-reference checked 30 actual model inputs
+stove-state1-closed-interrupted checked 10 actual model inputs
+stove-state2-reference checked 30 actual model inputs
+stove-state2-closed-interrupted checked 9 actual model inputs
+All 370 recorded model predictions reproduced exactly

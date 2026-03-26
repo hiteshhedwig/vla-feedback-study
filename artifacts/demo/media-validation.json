@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "fully_decoded": [
+    "bowl.mp4",
+    "drawer.mp4",
+    "stove.mp4",
+    "complete-walkthrough.mp4",
+    "preview.gif"
+  ],
+  "task_clip_duration_seconds": {
+    "bowl": 54.1,
+    "drawer": 54.1,
+    "stove": 33.2
+  },
+  "gif_excerpts": [
+    [
+      "bowl",
+      20,
+      30
+    ],
+    [
+      "bowl",
+      49.1,
+      54.1
+    ],
+    [
+      "drawer",
+      24,
+      34
+    ],
+    [
+      "drawer",
+      49.1,
+      54.1
+    ],
+    [
+      "stove",
+      18,
+      28
+    ],
+    [
+      "stove",
+      28.200000000000003,
+      33.2
+    ]
+  ],
+  "note": "All clips use predefined initial state 0; complete per-state outcomes are reported separately."
+}

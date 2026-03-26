@@ -1,0 +1,2597 @@
+{
+  "passed": true,
+  "model_inputs_reexecuted": 370,
+  "checks": [
+    {
+      "trial": "bowl-state0-reference",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 130,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 140,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 150,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 160,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 170,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 180,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 190,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 200,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 210,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 220,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 230,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 240,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 250,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 260,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 270,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 280,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-reference",
+      "step": 290,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-closed-interrupted",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-closed-interrupted",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-closed-interrupted",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-closed-interrupted",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-closed-interrupted",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-closed-interrupted",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-closed-interrupted",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-closed-interrupted",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state0-closed-interrupted",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 130,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 140,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 150,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 160,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 170,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 180,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 190,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 200,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 210,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 220,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 230,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 240,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 250,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 260,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 270,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 280,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-reference",
+      "step": 290,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-closed-interrupted",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-closed-interrupted",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-closed-interrupted",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-closed-interrupted",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-closed-interrupted",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-closed-interrupted",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-closed-interrupted",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-closed-interrupted",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-closed-interrupted",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state1-closed-interrupted",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 130,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 140,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 150,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 160,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 170,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 180,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 190,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 200,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 210,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 220,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 230,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 240,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 250,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 260,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 270,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 280,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-reference",
+      "step": 290,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-closed-interrupted",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-closed-interrupted",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-closed-interrupted",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-closed-interrupted",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-closed-interrupted",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-closed-interrupted",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-closed-interrupted",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-closed-interrupted",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-closed-interrupted",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "bowl-state2-closed-interrupted",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 130,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 140,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 150,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 160,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 170,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 180,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 190,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 200,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 210,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 220,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 230,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 240,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 250,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 260,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 270,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 280,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-reference",
+      "step": 290,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state0-closed-interrupted",
+      "step": 130,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 130,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 140,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 150,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 160,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 170,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 180,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 190,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 200,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 210,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 220,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 230,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 240,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 250,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 260,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 270,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 280,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-reference",
+      "step": 290,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 130,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state1-closed-interrupted",
+      "step": 140,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 130,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 140,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 150,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 160,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 170,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 180,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 190,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 200,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 210,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 220,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 230,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 240,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 250,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 260,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 270,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 280,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-reference",
+      "step": 290,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "drawer-state2-closed-interrupted",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 130,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 140,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 150,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 160,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 170,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 180,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 190,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 200,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 210,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 220,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 230,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 240,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 250,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 260,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 270,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 280,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-reference",
+      "step": 290,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-closed-interrupted",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-closed-interrupted",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-closed-interrupted",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-closed-interrupted",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-closed-interrupted",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-closed-interrupted",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-closed-interrupted",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-closed-interrupted",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-closed-interrupted",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state0-closed-interrupted",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 130,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 140,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 150,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 160,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 170,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 180,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 190,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 200,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 210,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 220,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 230,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 240,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 250,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 260,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 270,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 280,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-reference",
+      "step": 290,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-closed-interrupted",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-closed-interrupted",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-closed-interrupted",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-closed-interrupted",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-closed-interrupted",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-closed-interrupted",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-closed-interrupted",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-closed-interrupted",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-closed-interrupted",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state1-closed-interrupted",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 90,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 100,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 110,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 120,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 130,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 140,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 150,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 160,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 170,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 180,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 190,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 200,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 210,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 220,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 230,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 240,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 250,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 260,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 270,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 280,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-reference",
+      "step": 290,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-closed-interrupted",
+      "step": 0,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-closed-interrupted",
+      "step": 10,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-closed-interrupted",
+      "step": 20,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-closed-interrupted",
+      "step": 30,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-closed-interrupted",
+      "step": 40,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-closed-interrupted",
+      "step": 50,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-closed-interrupted",
+      "step": 60,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-closed-interrupted",
+      "step": 70,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    },
+    {
+      "trial": "stove-state2-closed-interrupted",
+      "step": 80,
+      "maximum_action_difference": 0.0,
+      "maximum_normalized_difference": 0.0,
+      "noise_matches": true
+    }
+  ],
+  "note": "Post dependency-bound alignment, all saved primary-study inputs were reexecuted with the same checkpoint, deterministic math and explicit noise. This does not add robot episodes to the study denominator."
+}

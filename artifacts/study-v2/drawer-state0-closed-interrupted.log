@@ -1,0 +1,22 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/capstone_proj/vla-execution-study/.venv-sim/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+closed libero_goal 0 0 step 0 inference 0.308
+closed libero_goal 0 0 step 10 inference 0.344
+closed libero_goal 0 0 step 20 inference 0.33
+closed libero_goal 0 0 step 30 inference 0.334
+closed libero_goal 0 0 step 40 inference 0.339
+closed libero_goal 0 0 step 50 inference 0.337
+closed libero_goal 0 0 step 60 inference 0.362
+closed libero_goal 0 0 step 70 inference 0.441
+closed libero_goal 0 0 step 80 inference 0.342
+closed libero_goal 0 0 step 90 inference 0.357
+closed libero_goal 0 0 step 100 inference 0.509
+closed libero_goal 0 0 step 110 inference 0.369
+closed libero_goal 0 0 step 120 inference 0.428
+closed libero_goal 0 0 step 130 inference 0.338
+{"status": "SUCCESS", "success": true, "mode": "closed", "suite": "libero_goal", "task_id": 0, "initial_state_id": 0, "policy_calls": 14, "steps": 131, "first_success_step": 131, "inference_seconds": [0.3075201810024737, 0.344417465999868, 0.32996101200114936, 0.3340246000007028, 0.339081484999042, 0.33705615799772204, 0.3620228710024094, 0.4414911519997986, 0.34248577800099156, 0.3569178069992631, 0.5091824720002478, 0.3689212560020678, 0.4279155730000639, 0.337754579999455], "request_seconds": [0.315522441000212, 0.35204473700287053, 0.33737278600165155, 0.33992619999844464, 0.3459250650012109, 0.34372671199889737, 0.36834589800128015, 0.44779263899908983, 0.3496431509993272, 0.3639156480021484, 0.5156276899979275, 0.377135566999641, 0.43710335300056613, 0.3448615270026494], "condition": "interrupted", "clipped_action_elements": 77, "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller", "instruction": "open the middle drawer of the cabinet", "first_success_wall_seconds": 11.361263624003186, "reference_continues_after_first_success": false, "wall_seconds": 11.422449621000851}

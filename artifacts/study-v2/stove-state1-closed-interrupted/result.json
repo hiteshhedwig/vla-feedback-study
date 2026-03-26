@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "success": true,
+  "mode": "closed",
+  "suite": "libero_goal",
+  "task_id": 7,
+  "initial_state_id": 1,
+  "policy_calls": 10,
+  "steps": 91,
+  "first_success_step": 91,
+  "inference_seconds": [
+    0.28014093399906415,
+    0.2821415739999793,
+    0.278880690002552,
+    0.2794967560002988,
+    0.27344207799978903,
+    0.27084412000112934,
+    0.2780683470009535,
+    0.2790107370019541,
+    0.2871477799999411,
+    0.27841705700120656
+  ],
+  "request_seconds": [
+    0.290528441000788,
+    0.28880111500257044,
+    0.28529634499864187,
+    0.2866740729987214,
+    0.28030957900045905,
+    0.27756236899949727,
+    0.28435331500077154,
+    0.2861126579991833,
+    0.29396562300098594,
+    0.28521995099799824
+  ],
+  "condition": "interrupted",
+  "clipped_action_elements": 55,
+  "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller",
+  "instruction": "turn on the stove",
+  "first_success_wall_seconds": 7.682700247001776,
+  "reference_continues_after_first_success": false,
+  "wall_seconds": 7.733946549000393
+}

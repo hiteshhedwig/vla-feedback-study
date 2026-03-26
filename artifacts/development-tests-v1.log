@@ -1,0 +1,106 @@
+.....F...F......                                                         [100%]
+=================================== FAILURES ===================================
+________ test_pairs_start_identically_and_clean_replay_matches_physics _________
+
+trials = [({'status': 'SUCCESS', 'success': True, 'mode': 'reference', 'suite': 'libero_spatial', ...}, PosixPath('/home/hedwig...al', ...}, PosixPath('/home/hedwig/capstone_proj/vla-execution-study/artifacts/study-v1/bowl-state1-open-clean')), ...]
+
+    def test_pairs_start_identically_and_clean_replay_matches_physics(trials):
+        for result,folder in trials:
+            stem=result["task_key"]+"-state"+str(result["initial_state_id"])
+            reference=RUNS/(stem+"-reference")
+            a=read(reference/"manifest.json");b=read(folder/"manifest.json")
+            assert a["initial_simulator_state_hash"]==b["initial_simulator_state_hash"]
+            assert a["initial_image_sha256"]==b["initial_image_sha256"]
+            expected=lines(reference/"actions.jsonl");actual=lines(folder/"actions.jsonl")
+            if result["mode"]=="open" and result["condition"]=="clean":
+                np.testing.assert_allclose([x["physics_state"] for x in actual],
+                                           [x["physics_state"] for x in expected[:len(actual)]],atol=1e-10,rtol=0)
+                assert result["first_success_step"]==read(reference/"result.json")["first_success_step"]
+            else:
+                count=min(30,len(actual))
+>               np.testing.assert_allclose([x["physics_state"] for x in actual[:count]],
+                                           [x["physics_state"] for x in expected[:count]],atol=1e-10,rtol=0)
+
+tests/test_evidence.py:107: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (<function assert_allclose.<locals>.compare at 0x7f6500234dc0>, array([[ 0.55      , -0.00698767, -0.14744196, ...,  0...  ,  0.        ],
+       [ 2.        ,  0.11313354,  0.00919246, ...,  0.        ,
+         0.        ,  0.        ]]))
+kwds = {'err_msg': '', 'verbose': True, 'header': 'Not equal to tolerance rtol=0, atol=1e-10', 'equal_nan': True}
+
+    @wraps(func)
+    def inner(*args, **kwds):
+        with self._recreate_cm():
+>           return func(*args, **kwds)
+E           AssertionError: 
+E           Not equal to tolerance rtol=0, atol=1e-10
+E           
+E           Mismatched elements: 360 / 2370 (15.2%)
+E           Max absolute difference: 0.00628243
+E           Max relative difference: 348.34736706
+E            x: array([[ 0.55    , -0.006988, -0.147442, ...,  0.      ,  0.      ,
+E                    0.      ],
+E                  [ 0.6     , -0.006269, -0.144401, ...,  0.      ,  0.      ,...
+E            y: array([[ 0.55    , -0.006988, -0.147442, ...,  0.      ,  0.      ,
+E                    0.      ],
+E                  [ 0.6     , -0.006269, -0.144401, ...,  0.      ,  0.      ,...
+
+../../vla_test/.python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/contextlib.py:79: AssertionError
+___________ test_fresh_project_closed_loop_preserves_model_execution ___________
+
+    def test_fresh_project_closed_loop_preserves_model_execution():
+        reference=RUNS/"bowl-state1-reference"
+        replay=ROOT/"artifacts/fresh-closed-check"
+        a,b=lines(reference/"actions.jsonl"),lines(replay/"actions.jsonl")
+>       np.testing.assert_allclose([x["physics_state"] for x in b],
+                                   [x["physics_state"] for x in a[:len(b)]],atol=1e-10,rtol=0)
+
+tests/test_evidence.py:135: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (<function assert_allclose.<locals>.compare at 0x7f65001ada20>, array([[ 0.55      , -0.02271471, -0.15490284, ...,  0...  ,  0.        ],
+       [ 4.7       ,  0.11502615,  1.06013405, ...,  0.        ,
+         0.        ,  0.        ]]))
+kwds = {'err_msg': '', 'verbose': True, 'header': 'Not equal to tolerance rtol=0, atol=1e-10', 'equal_nan': True}
+
+    @wraps(func)
+    def inner(*args, **kwds):
+        with self._recreate_cm():
+>           return func(*args, **kwds)
+E           AssertionError: 
+E           Not equal to tolerance rtol=0, atol=1e-10
+E           
+E           Mismatched elements: 1531 / 7728 (19.8%)
+E           Max absolute difference: 2.79666519
+E           Max relative difference: 3211.06673205
+E            x: array([[ 0.55    , -0.022715, -0.154903, ...,  0.      ,  0.      ,
+E                    0.      ],
+E                  [ 0.6     , -0.02167 , -0.152898, ...,  0.      ,  0.      ,...
+E            y: array([[ 0.55    , -0.022715, -0.154903, ...,  0.      ,  0.      ,
+E                    0.      ],
+E                  [ 0.6     , -0.02167 , -0.152898, ...,  0.      ,  0.      ,...
+
+../../vla_test/.python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/contextlib.py:79: AssertionError
+=============================== warnings summary ===============================
+tests/test_evidence.py::test_raw_camera_and_state_conversion
+  /home/hedwig/capstone_proj/vla-execution-study/.venv-sim/lib/python3.10/site-packages/robosuite/__init__.py:22: DeprecationWarning: invalid escape sequence '\ '
+    __logo__ = """
+
+tests/test_evidence.py::test_raw_camera_and_state_conversion
+  /home/hedwig/capstone_proj/vla-execution-study/.venv-sim/lib/python3.10/site-packages/robosuite/macros.py:53: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+    ROBOSUITE_DEFAULT_LOGGER.warn("No private macro file found!")
+
+tests/test_evidence.py::test_raw_camera_and_state_conversion
+  /home/hedwig/capstone_proj/vla-execution-study/.venv-sim/lib/python3.10/site-packages/robosuite/macros.py:54: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+    ROBOSUITE_DEFAULT_LOGGER.warn("It is recommended to use a private macro file")
+
+tests/test_evidence.py::test_raw_camera_and_state_conversion
+  /home/hedwig/capstone_proj/vla-execution-study/.venv-sim/lib/python3.10/site-packages/robosuite/macros.py:55: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+    ROBOSUITE_DEFAULT_LOGGER.warn("To setup, run: python {}/scripts/setup_macros.py".format(robosuite.__path__[0]))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_evidence.py::test_pairs_start_identically_and_clean_replay_matches_physics
+FAILED tests/test_evidence.py::test_fresh_project_closed_loop_preserves_model_execution
+2 failed, 14 passed, 4 warnings in 17.34s

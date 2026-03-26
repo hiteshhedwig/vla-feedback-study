@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 1,
+  "output_directory_created": false,
+  "message": "Port 8766 is already active; stop that service before starting a new owned model."
+}

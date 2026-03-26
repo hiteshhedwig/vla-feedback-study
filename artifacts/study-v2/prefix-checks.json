@@ -1,0 +1,137 @@
+[
+  {
+    "trial": "bowl-state0-open-clean",
+    "compared_steps": 79,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "bowl-state0-closed-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "bowl-state0-open-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "bowl-state1-open-clean",
+    "compared_steps": 83,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "bowl-state1-closed-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "bowl-state1-open-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "bowl-state2-open-clean",
+    "compared_steps": 83,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "bowl-state2-closed-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "bowl-state2-open-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "drawer-state0-open-clean",
+    "compared_steps": 117,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "drawer-state0-closed-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "drawer-state0-open-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "drawer-state1-open-clean",
+    "compared_steps": 131,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "drawer-state1-closed-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "drawer-state1-open-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "drawer-state2-open-clean",
+    "compared_steps": 117,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "drawer-state2-closed-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "drawer-state2-open-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "stove-state0-open-clean",
+    "compared_steps": 85,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "stove-state0-closed-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "stove-state0-open-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "stove-state1-open-clean",
+    "compared_steps": 71,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "stove-state1-closed-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "stove-state1-open-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "stove-state2-open-clean",
+    "compared_steps": 70,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "stove-state2-closed-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  },
+  {
+    "trial": "stove-state2-open-interrupted",
+    "compared_steps": 30,
+    "maximum_physics_state_difference": 0.0
+  }
+]

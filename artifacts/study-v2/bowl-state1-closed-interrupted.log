@@ -1,0 +1,18 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/capstone_proj/vla-execution-study/.venv-sim/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+closed libero_spatial 0 1 step 0 inference 0.285
+closed libero_spatial 0 1 step 10 inference 0.285
+closed libero_spatial 0 1 step 20 inference 0.281
+closed libero_spatial 0 1 step 30 inference 0.278
+closed libero_spatial 0 1 step 40 inference 0.278
+closed libero_spatial 0 1 step 50 inference 0.283
+closed libero_spatial 0 1 step 60 inference 0.282
+closed libero_spatial 0 1 step 70 inference 0.279
+closed libero_spatial 0 1 step 80 inference 0.275
+closed libero_spatial 0 1 step 90 inference 0.286
+{"status": "SUCCESS", "success": true, "mode": "closed", "suite": "libero_spatial", "task_id": 0, "initial_state_id": 1, "policy_calls": 10, "steps": 95, "first_success_step": 95, "inference_seconds": [0.28471543400155497, 0.2846187420000206, 0.2811649769973883, 0.27795565400083433, 0.2784264840011019, 0.282625627998641, 0.2818787859978329, 0.2792809579987079, 0.2752396529976977, 0.28578253199884784], "request_seconds": [0.2941179099980218, 0.2916038289986318, 0.28759031600202434, 0.2850199410022469, 0.28504024900030345, 0.2892119210009696, 0.28859342299983837, 0.2859656979999272, 0.2863493719996768, 0.2927200289996108], "condition": "interrupted", "clipped_action_elements": 62, "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller", "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate", "first_success_wall_seconds": 8.109282157998678, "reference_continues_after_first_success": false, "wall_seconds": 8.180675485000393}

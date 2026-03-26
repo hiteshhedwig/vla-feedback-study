@@ -1,0 +1,20 @@
+{
+  "status": "TASK_TIMEOUT",
+  "success": false,
+  "mode": "open",
+  "suite": "libero_goal",
+  "task_id": 0,
+  "initial_state_id": 0,
+  "policy_calls": 0,
+  "steps": 300,
+  "first_success_step": null,
+  "inference_seconds": [],
+  "request_seconds": [],
+  "condition": "interrupted",
+  "clipped_action_elements": 0,
+  "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller",
+  "instruction": "open the middle drawer of the cabinet",
+  "plan_sha256": "d1448e5b04649604338d4bd2d3e6b8b6407a6f06310b3001fdaed55b8022259d",
+  "reference_continues_after_first_success": false,
+  "wall_seconds": 8.15212341699953
+}

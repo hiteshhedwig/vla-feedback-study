@@ -1,0 +1,17 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/capstone_proj/vla-execution-study/.venv-sim/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+closed libero_goal 7 2 step 0 inference 0.28
+closed libero_goal 7 2 step 10 inference 0.282
+closed libero_goal 7 2 step 20 inference 0.283
+closed libero_goal 7 2 step 30 inference 0.282
+closed libero_goal 7 2 step 40 inference 0.281
+closed libero_goal 7 2 step 50 inference 0.304
+closed libero_goal 7 2 step 60 inference 0.316
+closed libero_goal 7 2 step 70 inference 0.325
+closed libero_goal 7 2 step 80 inference 0.32
+{"status": "SUCCESS", "success": true, "mode": "closed", "suite": "libero_goal", "task_id": 7, "initial_state_id": 2, "policy_calls": 9, "steps": 82, "first_success_step": 82, "inference_seconds": [0.2804799749974336, 0.2823438929990516, 0.2828718510027102, 0.28165186300248024, 0.28098087800026406, 0.304114455000672, 0.3157199449997279, 0.32516780399964773, 0.3200783069987665], "request_seconds": [0.2882050269981846, 0.2894446729987976, 0.290077483998175, 0.28825732699988293, 0.28782793400023365, 0.3110891049982456, 0.3224389989991323, 0.33183075499982806, 0.3270493019990681], "condition": "interrupted", "clipped_action_elements": 36, "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller", "instruction": "turn on the stove", "first_success_wall_seconds": 7.0428398639996885, "reference_continues_after_first_success": false, "wall_seconds": 7.094135193998227}

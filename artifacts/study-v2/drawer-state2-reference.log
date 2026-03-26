@@ -1,0 +1,38 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/capstone_proj/vla-execution-study/.venv-sim/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+reference libero_goal 0 2 step 0 inference 0.286
+reference libero_goal 0 2 step 10 inference 0.282
+reference libero_goal 0 2 step 20 inference 0.281
+reference libero_goal 0 2 step 30 inference 0.276
+reference libero_goal 0 2 step 40 inference 0.28
+reference libero_goal 0 2 step 50 inference 0.287
+reference libero_goal 0 2 step 60 inference 0.308
+reference libero_goal 0 2 step 70 inference 0.286
+reference libero_goal 0 2 step 80 inference 0.284
+reference libero_goal 0 2 step 90 inference 0.28
+reference libero_goal 0 2 step 100 inference 0.29
+reference libero_goal 0 2 step 110 inference 0.286
+reference libero_goal 0 2 step 120 inference 0.284
+reference libero_goal 0 2 step 130 inference 0.29
+reference libero_goal 0 2 step 140 inference 0.288
+reference libero_goal 0 2 step 150 inference 0.287
+reference libero_goal 0 2 step 160 inference 0.287
+reference libero_goal 0 2 step 170 inference 0.288
+reference libero_goal 0 2 step 180 inference 0.291
+reference libero_goal 0 2 step 190 inference 0.3
+reference libero_goal 0 2 step 200 inference 0.283
+reference libero_goal 0 2 step 210 inference 0.29
+reference libero_goal 0 2 step 220 inference 0.296
+reference libero_goal 0 2 step 230 inference 0.29
+reference libero_goal 0 2 step 240 inference 0.288
+reference libero_goal 0 2 step 250 inference 0.282
+reference libero_goal 0 2 step 260 inference 0.306
+reference libero_goal 0 2 step 270 inference 0.305
+reference libero_goal 0 2 step 280 inference 0.287
+reference libero_goal 0 2 step 290 inference 0.287
+{"status": "SUCCESS", "success": true, "mode": "reference", "suite": "libero_goal", "task_id": 0, "initial_state_id": 2, "policy_calls": 30, "steps": 300, "first_success_step": 117, "inference_seconds": [0.2862504689983325, 0.28243726499931654, 0.2805179679999128, 0.2761111619984149, 0.27993963600238203, 0.2871382769990305, 0.3075297479990695, 0.2861354030028451, 0.28438407399880816, 0.2803805189978448, 0.2895064429976628, 0.28551377799885813, 0.28410542699930375, 0.28969480900195776, 0.2882060650008498, 0.28748281900334405, 0.2871172180020949, 0.2882323659978283, 0.2908030129983672, 0.3004406629988807, 0.28321301200048765, 0.29013455099993735, 0.2955366679998406, 0.2901616320014, 0.287831219000509, 0.2817360010012635, 0.30559591600103886, 0.3052202349972504, 0.28713327999867033, 0.2873690650012577], "request_seconds": [0.295484676000342, 0.2869511639983102, 0.28756053500183043, 0.28306392800004687, 0.28673218000039924, 0.294014650000463, 0.3150354499994137, 0.2931571500012069, 0.2911089199988055, 0.28753880400108756, 0.2959763579965511, 0.2899634060013341, 0.2887088349998521, 0.29442817300150637, 0.29281980299856514, 0.29486837500007823, 0.2943598040001234, 0.2952317609997408, 0.29755041300086305, 0.30796285700125736, 0.29029306000302313, 0.296562105002522, 0.3040702819998842, 0.2971758240018971, 0.29460086000108276, 0.28890065900122863, 0.3120411839990993, 0.31212319900078, 0.2938302439979452, 0.29393116400024155], "condition": "clean", "clipped_action_elements": 188, "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller", "instruction": "open the middle drawer of the cabinet", "first_success_wall_seconds": 8.465019417999429, "reference_continues_after_first_success": true, "wall_seconds": 16.91104225199888}

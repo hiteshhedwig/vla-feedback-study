@@ -1,0 +1,38 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/vla_test/.venv-libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+reference libero_spatial 0 1 step 0 inference 0.202
+reference libero_spatial 0 1 step 10 inference 0.203
+reference libero_spatial 0 1 step 20 inference 0.224
+reference libero_spatial 0 1 step 30 inference 0.213
+reference libero_spatial 0 1 step 40 inference 0.221
+reference libero_spatial 0 1 step 50 inference 0.209
+reference libero_spatial 0 1 step 60 inference 0.21
+reference libero_spatial 0 1 step 70 inference 0.208
+reference libero_spatial 0 1 step 80 inference 0.204
+reference libero_spatial 0 1 step 90 inference 0.215
+reference libero_spatial 0 1 step 100 inference 0.199
+reference libero_spatial 0 1 step 110 inference 0.203
+reference libero_spatial 0 1 step 120 inference 0.2
+reference libero_spatial 0 1 step 130 inference 0.201
+reference libero_spatial 0 1 step 140 inference 0.203
+reference libero_spatial 0 1 step 150 inference 0.199
+reference libero_spatial 0 1 step 160 inference 0.198
+reference libero_spatial 0 1 step 170 inference 0.197
+reference libero_spatial 0 1 step 180 inference 0.205
+reference libero_spatial 0 1 step 190 inference 0.202
+reference libero_spatial 0 1 step 200 inference 0.215
+reference libero_spatial 0 1 step 210 inference 0.219
+reference libero_spatial 0 1 step 220 inference 0.209
+reference libero_spatial 0 1 step 230 inference 0.199
+reference libero_spatial 0 1 step 240 inference 0.201
+reference libero_spatial 0 1 step 250 inference 0.197
+reference libero_spatial 0 1 step 260 inference 0.197
+reference libero_spatial 0 1 step 270 inference 0.202
+reference libero_spatial 0 1 step 280 inference 0.212
+reference libero_spatial 0 1 step 290 inference 0.203
+{"status": "SUCCESS", "success": true, "mode": "reference", "suite": "libero_spatial", "task_id": 0, "initial_state_id": 1, "policy_calls": 30, "steps": 300, "first_success_step": 84, "inference_seconds": [0.20249290200081305, 0.20254101300088223, 0.2237473230015894, 0.21274828200330376, 0.22128114400038612, 0.20873734999986482, 0.20999948999815388, 0.20791558299970347, 0.204229661001591, 0.21452087899888284, 0.19901363700046204, 0.20277796600203146, 0.20001161099935416, 0.20141690099990228, 0.2027653149998514, 0.19939071200133185, 0.19814885999949183, 0.1967593310000666, 0.20524311999906786, 0.20238296699972125, 0.21462562400120078, 0.21881408199988073, 0.20938628500152845, 0.19912382300026366, 0.20125834899954498, 0.19712546699884115, 0.1973670020015561, 0.20192225299979327, 0.21231351000096765, 0.20326414499868406], "request_seconds": [0.21138643200174556, 0.20856898900092347, 0.23024756100130617, 0.21968766799909645, 0.22794303599948762, 0.21488870000030147, 0.2165725349987042, 0.21440540099865757, 0.21058664999873145, 0.22092550699744606, 0.207142205999844, 0.20924776600077166, 0.2101967969974794, 0.2083363179990556, 0.2083725289994618, 0.20607576800102834, 0.2044863700029964, 0.20292611100012437, 0.21156124399931286, 0.20681281900033355, 0.22111387999757426, 0.22592520300167962, 0.21619205999741098, 0.20558243299819878, 0.20775159500044538, 0.20354346899694065, 0.20566287599649513, 0.21010806000049342, 0.21922462200018344, 0.2100875329997507], "condition": "clean", "clipped_action_elements": 217, "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller", "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate", "first_success_wall_seconds": 6.400260964001063, "reference_continues_after_first_success": true, "wall_seconds": 14.974222434000694}

@@ -1,0 +1,8 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/hedwig/vla_test/.venv-libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+{"status": "TASK_TIMEOUT", "success": false, "mode": "open", "suite": "libero_spatial", "task_id": 0, "initial_state_id": 2, "policy_calls": 0, "steps": 300, "first_success_step": null, "inference_seconds": [], "request_seconds": [], "condition": "interrupted", "clipped_action_elements": 0, "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller", "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate", "plan_sha256": "2dcd2e7811a015c0d1eca964a507dcce4e49eac89e5102be5fd19315a8d9547f", "reference_continues_after_first_success": false, "wall_seconds": 8.12449473200104}

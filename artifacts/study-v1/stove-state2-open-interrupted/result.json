@@ -1,0 +1,21 @@
+{
+  "status": "SUCCESS",
+  "success": true,
+  "mode": "open",
+  "suite": "libero_goal",
+  "task_id": 7,
+  "initial_state_id": 2,
+  "policy_calls": 0,
+  "steps": 80,
+  "first_success_step": 80,
+  "inference_seconds": [],
+  "request_seconds": [],
+  "condition": "interrupted",
+  "clipped_action_elements": 0,
+  "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller",
+  "instruction": "turn on the stove",
+  "plan_sha256": "39159b9603a97499d5147abecc65eb8a62b66eba6f7ea26c9be27877f9b41ce3",
+  "first_success_wall_seconds": 4.185499836999952,
+  "reference_continues_after_first_success": false,
+  "wall_seconds": 4.256864667000627
+}

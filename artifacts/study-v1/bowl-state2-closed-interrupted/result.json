@@ -1,0 +1,40 @@
+{
+  "status": "SUCCESS",
+  "success": true,
+  "mode": "closed",
+  "suite": "libero_spatial",
+  "task_id": 0,
+  "initial_state_id": 2,
+  "policy_calls": 9,
+  "steps": 89,
+  "first_success_step": 89,
+  "inference_seconds": [
+    0.20610954700168804,
+    0.20588334999774816,
+    0.21891736700126785,
+    0.21929100199849927,
+    0.20495446900167735,
+    0.20857486000022618,
+    0.20528828100214014,
+    0.2195638390003296,
+    0.21880614000110654
+  ],
+  "request_seconds": [
+    0.21437671000239789,
+    0.21264066599906073,
+    0.22593786799916415,
+    0.22636099699957413,
+    0.21209855500273989,
+    0.21532597400073428,
+    0.21236714300175663,
+    0.22664773199721822,
+    0.2255755690021033
+  ],
+  "condition": "interrupted",
+  "clipped_action_elements": 69,
+  "scope": "Nominal VLA plan replay vs fresh-feedback VLA; no custom motion controller",
+  "instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "first_success_wall_seconds": 6.760045412000181,
+  "reference_continues_after_first_success": false,
+  "wall_seconds": 6.821378500997525
+}
