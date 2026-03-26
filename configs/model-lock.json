@@ -1,0 +1,7 @@
+{
+  "checkpoint": "lerobot/smolvla_libero",
+  "revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+  "tokenizer": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+  "tokenizer_revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+  "no_training_data": true
+}

@@ -1,0 +1,16 @@
+numpy==1.26.4
+mujoco==3.2.3
+robosuite==1.4.1
+imageio==2.38.0
+imageio-ffmpeg==0.8.1
+Pillow==12.3.0
+PyYAML==6.0.3
+bddl==3.6.0
+easydict==1.14
+gym==0.25.2
+numba==0.68.1
+opencv-python==4.11.0.86
+matplotlib==3.10.9
+scipy==1.15.3
+safetensors==0.8.0
+pytest==9.2.0

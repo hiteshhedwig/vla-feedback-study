@@ -1,0 +1,12 @@
+{
+  "lerobot": {
+    "url": "https://github.com/huggingface/lerobot.git",
+    "revision": "a24998f7ba3c77ea445b48c92ad15c14a50e492a",
+    "sparse": "src"
+  },
+  "LIBERO": {
+    "url": "https://github.com/Lifelong-Robot-Learning/LIBERO.git",
+    "revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+    "sparse": "libero"
+  }
+}
